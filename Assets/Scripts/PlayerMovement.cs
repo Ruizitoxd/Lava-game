@@ -182,6 +182,11 @@ public class PlayerMovement : MonoBehaviour, IPlayerController
         _frameVelocity.y = movementStats.jumpPower;
         jumped?.Invoke();
     }
+     public void JumpBoost(float jumpBoost)
+    {
+        _frameVelocity.y = jumpBoost;
+        ApplyMovement();
+    }
 
     private void HandleGravity()
     {
