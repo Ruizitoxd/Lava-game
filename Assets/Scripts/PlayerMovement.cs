@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour, IPlayerController
     private FrameInput _frameInput;
     private Vector2 _frameVelocity;
     private bool _cachedQueryStartInColliders;
+    [SerializeField] private ParticleSystem particulas;
 
     #region interface
 
@@ -138,6 +139,10 @@ public class PlayerMovement : MonoBehaviour, IPlayerController
     {
         _isFacingRight = !_isFacingRight;
         transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+        if (_isGrounded)
+        {
+            particulas.Play();
+        }
     }
 
     private IEnumerator Dash()
@@ -154,6 +159,7 @@ public class PlayerMovement : MonoBehaviour, IPlayerController
             _frameVelocity = _frameInput.Move * movementStats.dashPower;
         }
         ApplyMovement();
+        particulas.Play();
         yield return new WaitForSeconds(movementStats.dashTime);
         _frameVelocity.y = originalGravity;
         _isDashing = false;
@@ -181,6 +187,12 @@ public class PlayerMovement : MonoBehaviour, IPlayerController
         _coyoteUsable = false;
         _frameVelocity.y = movementStats.jumpPower;
         jumped?.Invoke();
+        particulas.Play();
+    }
+    public void JumpBoost(float jumpBoost)
+    {
+        _frameVelocity.y = jumpBoost;
+        ApplyMovement();
     }
 
     private void HandleGravity()

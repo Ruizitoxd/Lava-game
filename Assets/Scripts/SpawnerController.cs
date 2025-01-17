@@ -12,6 +12,6 @@ public class SpawnerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector2(playerObject.transform.position.x, playerObject.transform.position.y+7f);
+        transform.position = new Vector2(playerObject.transform.position.x, playerObject.transform.position.y+15f);
     }
 }
