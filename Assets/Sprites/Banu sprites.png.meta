@@ -1,34 +1,28 @@
 fileFormatVersion: 2
-guid: b5721cacbd9508a42a5af125dba0a64c
+guid: a65695b896597ce4482253720bdfa7ae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1761525908599738565
-    second: Sprites  banu_0
+      213: -8269180917125967530
+    second: Banu sprites_0
   - first:
-      213: 1997584351661050610
-    second: Sprites  banu_1
+      213: 6267204705536676130
+    second: Banu sprites_1
   - first:
-      213: 8400954345229910194
-    second: Sprites  banu_2
+      213: 8353302075745990104
+    second: Banu sprites_2
   - first:
-      213: -5249726131925469243
-    second: Sprites  banu_3
+      213: -1572754434281764822
+    second: Banu sprites_3
   - first:
-      213: -3701100194470170447
-    second: Sprites  banu_4
+      213: -472710245745290733
+    second: Banu sprites_4
   - first:
-      213: -2369794052355110368
-    second: Sprites  banu_5
+      213: 3502145113864677614
+    second: Banu sprites_5
   - first:
-      213: 565169855371547344
-    second: Sprites  banu_6
-  - first:
-      213: 5713823591584750186
-    second: Sprites  banu_7
-  - first:
-      213: 8214378969207176915
-    second: Sprites  banu_8
+      213: -7600633998298361071
+    second: Banu sprites_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,7 +118,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprites  banu_0
+      name: Banu sprites_0
       rect:
         serializedVersion: 2
         x: 0
@@ -139,14 +133,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3fe343e48dcd87e0800000000000000
-      internalID: -1761525908599738565
+      spriteID: 651944394c7fd3d80800000000000000
+      internalID: -8269180917125967530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites  banu_1
+      name: Banu sprites_1
       rect:
         serializedVersion: 2
         x: 32
@@ -161,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2fac2a95268d8bb10800000000000000
-      internalID: 1997584351661050610
+      spriteID: 2219b20897599f650800000000000000
+      internalID: 6267204705536676130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites  banu_2
+      name: Banu sprites_2
       rect:
         serializedVersion: 2
         x: 0
@@ -183,14 +177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b004b1877f269470800000000000000
-      internalID: 8400954345229910194
+      spriteID: 8d57f5eeaf3ece370800000000000000
+      internalID: 8353302075745990104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites  banu_3
+      name: Banu sprites_3
       rect:
         serializedVersion: 2
         x: 32
@@ -205,14 +199,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c73f72b5e93527b0800000000000000
-      internalID: -5249726131925469243
+      spriteID: a2807b1cc247c2ae0800000000000000
+      internalID: -1572754434281764822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites  banu_4
+      name: Banu sprites_4
       rect:
         serializedVersion: 2
         x: 64
@@ -227,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b0f97e7bfc03acc0800000000000000
-      internalID: -3701100194470170447
+      spriteID: 3121aa839889079f0800000000000000
+      internalID: -472710245745290733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites  banu_5
+      name: Banu sprites_5
       rect:
         serializedVersion: 2
         x: 96
@@ -249,14 +243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02a4a867ddccc1fd0800000000000000
-      internalID: -2369794052355110368
+      spriteID: ee826c70d6e1a9030800000000000000
+      internalID: 3502145113864677614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites  banu_6
+      name: Banu sprites_6
       rect:
         serializedVersion: 2
         x: 0
@@ -271,61 +265,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d21e233df2e7d700800000000000000
-      internalID: 565169855371547344
+      spriteID: 1135baff5af158690800000000000000
+      internalID: -7600633998298361071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites  banu_7
+      name: Banu sprites_7
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6ad7ad88449b4f40800000000000000
-      internalID: 5713823591584750186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites  banu_8
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3de780e96265ff170800000000000000
-      internalID: 8214378969207176915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprites  banu_9
-      rect:
-        serializedVersion: 2
-        x: 96
         y: 0
         width: 32
         height: 32
@@ -337,8 +287,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a402a11be08d4d4b95968a6d1a3b94f
-      internalID: 840437263
+      spriteID: 147f0b728c198954b92e3b293172e22b
+      internalID: -1665341055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banu sprites_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d75c7f94493d654b90305383d0e5ad8
+      internalID: -1150170287
       vertices: []
       indices: 
       edges: []
@@ -347,7 +319,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9070efccda1b47044aad2763546676cd
+    spriteID: 640858ea68fb4c645b81dfbdb555a26f
     internalID: 0
     vertices: []
     indices: 
@@ -357,16 +329,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sprites  banu_0: -1761525908599738565
-      Sprites  banu_1: 1997584351661050610
-      Sprites  banu_2: 8400954345229910194
-      Sprites  banu_3: -5249726131925469243
-      Sprites  banu_4: -3701100194470170447
-      Sprites  banu_5: -2369794052355110368
-      Sprites  banu_6: 565169855371547344
-      Sprites  banu_7: 5713823591584750186
-      Sprites  banu_8: 8214378969207176915
-      Sprites  banu_9: 840437263
+      Banu sprites_0: -8269180917125967530
+      Banu sprites_1: 6267204705536676130
+      Banu sprites_2: 8353302075745990104
+      Banu sprites_3: -1572754434281764822
+      Banu sprites_4: -472710245745290733
+      Banu sprites_5: 3502145113864677614
+      Banu sprites_6: -7600633998298361071
+      Banu sprites_7: -1665341055
+      Banu sprites_8: -1150170287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
