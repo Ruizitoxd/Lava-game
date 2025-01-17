@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9e81301c3678da4a843944d12dc056b, type: 3}
   m_Name: PlayerMovementStats
   m_EditorClassIdentifier: 
-  maxWalkSpeed: 12.5
+  maxWalkSpeed: 15
   groundAcceleration: 5
   groundDeceleration: 20
   airAcceleration: 5
@@ -25,11 +25,11 @@ MonoBehaviour:
   groundingForce: -1.5
   grounderDistance: 0.05
   jumpPower: 50
-  maxFallSpeed: 40
+  maxFallSpeed: 60
   fallAcceleration: 110
-  JumpEndEarlyGravityModifier: 3
+  JumpEndEarlyGravityModifier: 4
   numberOfJumps: 1
-  apexThreshold: 0.97
+  apexThreshold: 0.653
   apexHangTime: 0.075
   jumpBufferTime: 0.125
   jumpCoyoteTime: 0.1
